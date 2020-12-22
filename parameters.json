@@ -1,0 +1,125 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "uksouth"
+        },
+        "appName": {
+            "value": "mps-rob-orch-dev"
+        },
+        "orchestratorAdminPassword": {
+            "value": "PAssw0rd19801980"
+        },
+        "orchestratorVersion": {
+            "value": "20.10.3"
+        },
+        "orchestratorSize": {
+            "value": "Small"
+        },
+        "orchestratorInstances": {
+            "value": 2
+        },
+        "EnableHAA": {
+            "value": true
+        },
+        "HAAVMAdminLogin": {
+            "value": "azadmin"
+        },
+        "HAAVMAdminPassword": {
+            "value": "PAssw0rd19801980"
+        },
+        "HAAadminEmail": {
+            "value": "arshadnazir@gmail.com"
+        },
+        "HAAAdminPassword": {
+            "value": "PAssw0rd19801980"
+        },
+        "HAALicense": {
+            "value": ""
+        },
+        "HAAvirtualNetworkNewOrExistingPaaS": {
+            "value": "existing"
+        },
+        "HAAaddressPrefixesPaaS": {
+            "value": [
+                "10.3.0.0/16"
+            ]
+        },
+        "HAAsubnetPrefixPaaS": {
+            "value": "10.3.3.0/24"
+        },
+        "HAAwebAppsubnetPrefixPaaS": {
+            "value": "10.3.2.0/24"
+        },
+        "HAAvirtualNetworkResourceGroupNamePaaS": {
+            "value": "MPS-ROB-Network-RG"
+        },
+        "HAAvirtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "SQLServerName": {
+            "value": "mps-rob-sql-dev"
+        },
+        "SQLServerAdminLogin": {
+            "value": "saadmin"
+        },
+        "SQLServerAdminPassword": {
+            "value": "PAssw0rd19801980"
+        },
+        "TokenCertificate": {
+            "value": ""
+        },
+        "TokenCertificatePass": {
+            "value": "PAssw0rd19801980"
+        },
+        "tagsByResource": {
+            "value": {}
+        },
+        "OrchStorageAccountName": {
+            "value": "mpsrobstgdev"
+        },
+        "OrchDatabaseName": {
+            "value": "mps-rob-orch-db"
+        },
+        "OrchAppServicePlan": {
+            "value": "mps-rob-orch-app-plan"
+        },
+        "OrchAppInsights": {
+            "value": "mps-rob-orch-app-ins"
+        },
+        "OrchIdentityAppServiceName": {
+            "value": "mps-rob-orch-idn-svc"
+        },
+        "OrchWebhooksAppServiceName": {
+            "value": "mps-rob-orch-web-app-svc"
+        },
+        "OrchCertificate": {
+            "value": "mps-rob-orchcrt"
+        },
+        "OrchMSIName": {
+            "value": "Orch-user-mi"
+        },
+        "HAAAvailabilitySetName": {
+            "value": "Orch-rob-orch-av-set"
+        },
+        "HAANSGName": {
+            "value": "MPS-ROB-HA-NSG"
+        },
+        "HAAVnetName": {
+            "value": "MPS-ROB-VNET"
+        },
+        "HAASubnetName": {
+            "value": "MPS-ROB-HA-SNET"
+        },
+        "HAAWASubnetName": {
+            "value": "MPS-ROB-APP-SNET"
+        },
+        "HAANICNamePrefix": {
+            "value": "MPS-ROB-VM-NIC"
+        },
+        "HAAVMNamePrefix": {
+            "value": "MPS-ROB-VM"
+        }
+    }
+}
